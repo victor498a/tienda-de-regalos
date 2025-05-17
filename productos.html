@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Catálogo de Productos</title>
+
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="intex.html" class="logo"><img src="LOGO.png"></a>
+        <h1>Mi empresa</h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href="intex.html">INICIO</a></li>
+                <li><a href="productos.html">CATALOGO</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de contenido principal-->
+    <main>
+        <h1>Catálogo de Productos</h1>
+        <div class="catalogo">
+            <!-- Producto 1 -->
+            <div class="producto">
+                <img src="CAPIBARA.PNG.jpeg" alt="CAPIBARA">
+                <div class="producto-info">
+                    <h2>Producto 1</h2>
+                    <p>PELUCHE DE CAPIBARA.</p>
+                    <p class="precio">$90.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 2 -->
+            <div class="producto">
+                <img src="cartera.png.jpeg" alt="CARTERA">
+                <div class="producto-info">
+                    <h2>Producto 2</h2>
+                    <p>CARTERA COLOR ROSA.</p>
+                    <p class="precio">$100.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 3 -->
+            <div class="producto">
+                <img src="bolsas.png.jpeg" alt="BOLSA">
+                <div class="producto-info">
+                    <h2>Producto 3</h2>
+                    <p>BOLSA COLOR BLANCA MARACA THE TOTE BAG.</p>
+                    <p class="precio">$500.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 4 -->
+            <div class="producto">
+                <img src="PELUCHES%20BB.png.jpeg" alt="PELUCHES BB">
+                <div class="producto-info">
+                    <h2>Producto 4</h2>
+                    <p>PELUCHES PARA BB .</p>
+                    <p class="precio">$85.00 C/U</p>
+                </div>
+            </div>
+
+            <!-- Producto 5 -->
+            <div class="producto">
+                <img src="bolsa,b.png.jpeg" alt="BOLSA">
+                <div class="producto-info">
+                    <h2>Producto 4</h2>
+                    <p>BOLSA COLOR BLANCA PARA MUJER.</p>
+                    <p class="precio">$650.00</p>
+                </div>
+            </div>
+              <!-- Producto 6 -->
+            <div class="producto">
+                <img src="KISSES.PNG.jpeg" alt="CHOCOLATE">
+                <div class="producto-info">
+                    <h2>Producto 6</h2>
+                    <p>CHOCOLATES.</p>
+                    <p class="precio">$150.00</p>
+                </div>
+            </div>
+    
+        </div>
+    </main>
+
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2025 Mi empresa. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="#" target="_blank">Facebook</a> |
+            <a href="#" target="_blank">Tik Tok</a> |
+            <a href="#" target="_blank">Instagram</a>
+        </div>
+        <p>Contacto:  RegalosRoous@hotmail.com</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+    </script>
+</body>
+</html>

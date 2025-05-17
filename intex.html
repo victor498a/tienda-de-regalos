@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIENDA DE REGALO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="intex.html" class="logo"><img src="LOGO.png"></a>
+        <h1>TIENDA DE REGALOS</h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href="intex.html">INICIO</a></li>
+                <li><a href="productos.html">CATALOGO</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Sección de contenido principal-->
+    <main>
+        <!-- Sección de la empresa -->
+        <section id="empresa" class="columnas">
+            <div class="izquierda">
+                <img src="LOGO.png" alt="quienes_somos">
+            </div>
+            <div class="derecha">
+                <h2>Mi empresa</h2>
+                <p>"Nuestra misión es ofrecer regalos únicos y especiales que expresen emociones y creen recuerdos inolvidables.
+                    Nos comprometemos a brindar una experiencia personalizada, destacando la calidad, creatividad y originalidad en cada detalle,
+                    para acompañarte en tus momentos más importantes." ...</p>    
+            </div>
+        </section>
+
+        <!-- Sección de Promociones -->
+        <section id="promocion">
+            <h2>PROMOCIONES</h2>
+            <div class="catalogo">
+                <!-- promocion 1 -->
+                <div class="producto">
+                    <img src="PELUCHES%20BB.png.jpeg" alt="Producto 1">
+                    <div class="producto-info">
+                        <h2>Promoción Especial 4</h2>
+                        <p>En la compra de dos te llevas el tercero gratis.</p>
+                    </div>
+                </div>
+                <!-- promocion 2 -->
+                <div class="producto">
+                    <img src="bolsa,b.png.jpeg" alt="Producto 2">
+                    <div class="producto-info">
+                        <h2>Promoción Especial 2</h2>
+                        <p>compra una y te llevaras una cartera a mitad de precio.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Sección de Servicios y Precios -->
+        <section id="servicios" class="columnas">
+            <div class="izquierda">
+                <h2>Servicios y Precios</h2>
+                <ul>
+                    <li>envoltura: $15</li>
+                    <li>bolsas de regalo: $20</li>
+                    <li>bolsas de regalo grandes: $25</li>
+                    <li>envoltura de jueguetes grandes: desde $40</li>
+                    <!-- Agregar más servicios según sea necesario -->
+                </ul>
+            </div>
+            <div class="derecha">
+                <img src="envoltura.jpeg" alt="Envoltura">
+            </div>
+        </section>
+
+        <!-- Sección de Marcas -->
+        <section id="marcas">
+            <h2>Nuestras Marcas</h2>
+            <div class="brands">
+                <img src="bolsas.png.jpeg" alt="THE TOTE BAG">
+                <img src="CHOCOLATES.PNG.jpeg" alt="FERRERO ROCHER">
+                <img src="KISSES.PNG.jpeg" alt="KISSES">
+            </div>
+        </section>
+    </main>
+
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2025 Mi empresa. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="#" target="_blank">Facebook</a> |
+            <a href="#" target="_blank">Tik Tok</a> |
+            <a href="#" target="_blank">Instagram</a>
+        </div>
+        <p>Contacto: RegalosRoous@hotmail.com</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+      </script>
+</body>
+</html>
